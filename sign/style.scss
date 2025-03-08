@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+form{
+ text-align: center;
+    width: 65%;
+   margin: 40px auto;
+   top: 50%;
+   h1{
+    font-size: 45px;
+   }
+}
+
+.signer{
+    display: flex;
+    flex-wrap: wrap;
+    input{
+        border: none;
+    }
+}

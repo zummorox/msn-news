@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  background-color: white;
+  border-radius: 25px;
+  padding: 0px 40px;
+}
+nav img {
+  width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+nav ul li {
+  list-style: none;
+  padding: 7px 10px;
+  border-radius: 20px;
+  background-color: transparent;
+  transition-duration: 0.4s;
+}
+nav ul li:hover {
+  background-color: rgb(81, 179, 164);
+}
+nav ul li:hover a {
+  color: white;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: gray;
+  font-weight: bolder;
+}
+
+.nava {
+  opacity: 0.8;
+  background-color: rgb(255, 217, 0);
+  padding: 9px 12px;
+  border-radius: 20px;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  transition-duration: 0.4s;
+}
+.nava:hover {
+  background-color: rgb(81, 179, 164);
+  transform: scale(1.05);
+  color: white;
+}
+
+.container {
+  max-width: 1165px;
+  margin: 0px auto;
+  padding: 0px 10px;
+}
+
+main {
+  margin-bottom: 9%;
+}
+
+.main-glav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 24%;
+  min-height: 720px;
+}
+.news-left div img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 10px;
+}
+.news-left div a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+.news-left div a:hover {
+  text-decoration: underline;
+}
+.news-left div a i {
+  margin-right: 5px;
+}
+
+.news-left p:last-child {
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.premium-box {
+  padding: 5px;
+  font-size: 15px;
+  background-color: rgb(192, 192, 192);
+  border-radius: 10px;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.news-des {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.sub-box button {
+  background-color: yellow;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.sub-box button:hover {
+  background-color: rgb(81, 179, 164);
+  transform: scale(1.02);
+  color: white;
+  border-color: transparent;
+}
+
+.news-center {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 47%;
+  min-height: 600px;
+}
+.news-center div img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 10px;
+}
+.news-center div a {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+.news-center div a:hover {
+  text-decoration: underline;
+}
+.news-center div a i {
+  margin-right: 7px;
+}
+
+.center-time {
+  font-size: 13px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+
+.news-des-2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.news-right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 24%;
+  height: 500px;
+}
+.news-right div a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+.news-right div a:hover {
+  text-decoration: underline;
+}
+.news-right div a i {
+  margin-right: 5px;
+}
+
+.news-right p:last-child {
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.news-des-3 {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+footer {
+  padding: 100px 0px;
+  border-radius: 50px 50px 0px 0px;
+  background-color: rgb(44, 44, 44);
+}
+
+.footer-glav {
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+
+.footer-left {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+.footer-left img {
+  width: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.footer-left p {
+  font-size: 16px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+.footer-left p:last-child {
+  color: gray;
+  font-size: 13px;
+  margin: none;
+}
+
+.sub-box-3 {
+  padding-left: 35px;
+  margin-bottom: 30px;
+}
+.sub-box-3 button {
+  background-color: yellow;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.sub-box-3 button:hover {
+  background-color: rgb(81, 179, 164);
+  transform: scale(1.02);
+  color: white;
+  border-color: transparent;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.footer-icons i {
+  font-size: 30px;
+  transition-duration: 0.4s;
+}
+.footer-icons i:hover {
+  color: rgb(201, 201, 201);
+  transform: scale(1.1);
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.footer-right div {
+  width: 40%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+.footer-right ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+.footer-right ul li {
+  transition-duration: 0.3s;
+}
+.footer-right ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  letter-spacing: 2px;
+}
+.footer-right ul li:hover {
+  transform: scale(1.07);
+  color: #cacfd4;
+}
+
+.ft-1 {
+  font-size: 21px;
+  color: rgb(97, 92, 92);
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.ft-2 {
+  font-size: 21px;
+  color: rgb(97, 92, 92);
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}/*# sourceMappingURL=style.css.map */
