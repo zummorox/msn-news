@@ -155,7 +155,9 @@ main{
 
 
 .sub-box{
-    button{
+    a{
+        text-decoration: none;
+        color: black;
         background-color: yellow;
         padding: 10px 15px;
         font-size: 20px;
@@ -297,7 +299,9 @@ footer{
 .sub-box-3{
 padding-left: 35px;
 margin-bottom: 30px;
-    button{
+    a{
+        text-decoration: none;
+        color: black;
         background-color: yellow;
         padding: 10px 15px;
         font-size: 20px;

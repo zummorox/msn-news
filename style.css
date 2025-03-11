@@ -123,7 +123,9 @@ h1 {
   font-weight: bold;
 }
 
-.sub-box button {
+.sub-box a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
   background-color: yellow;
   padding: 10px 15px;
   font-size: 20px;
@@ -132,7 +134,7 @@ h1 {
   cursor: pointer;
   transition-duration: 0.3s;
 }
-.sub-box button:hover {
+.sub-box a:hover {
   background-color: rgb(81, 179, 164);
   transform: scale(1.02);
   color: white;
@@ -565,7 +567,9 @@ h1 {
 .sub-box-2 {
   padding-right: 50px;
 }
-.sub-box-2 button {
+.sub-box-2 a {
+  text-decoration: none;
+  color: black;
   background-color: yellow;
   padding: 10px 15px;
   font-size: 20px;
@@ -574,7 +578,7 @@ h1 {
   cursor: pointer;
   transition-duration: 0.3s;
 }
-.sub-box-2 button:hover {
+.sub-box-2 a:hover {
   background-color: rgb(63, 131, 121);
   transform: scale(1.02);
   color: white;
@@ -690,7 +694,9 @@ footer {
   padding-left: 35px;
   margin-bottom: 30px;
 }
-.sub-box-3 button {
+.sub-box-3 a {
+  color: black;
+  text-decoration: none;
   background-color: yellow;
   padding: 10px 15px;
   font-size: 20px;
@@ -699,7 +705,7 @@ footer {
   cursor: pointer;
   transition-duration: 0.3s;
 }
-.sub-box-3 button:hover {
+.sub-box-3 a:hover {
   background-color: rgb(81, 179, 164);
   transform: scale(1.02);
   color: white;

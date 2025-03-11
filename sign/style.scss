@@ -9,17 +9,55 @@
 form{
  text-align: center;
     width: 65%;
-   margin: 40px auto;
+   margin: 0px auto;
    top: 50%;
    h1{
-    font-size: 45px;
+    font-size: 30px;
+    margin-bottom: 15px;
+   }
+   a{
+      text-decoration: none;
+      color: gray;
+      font-size: 17px;
+      display: flex;
+      width: 21%;
+      margin: 0px auto;
+      justify-content: space-between;
+      align-items: center;
+      transition-duration: 0.4s;
+      &:hover{
+        color: black;
+      }
    }
 }
 
 .signer{
+    margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    border: 2px solid rgb(4, 204, 154);
+    border-radius: 14px;
+    padding: 5px 10px;
+    margin-bottom: 50px;
     input{
-        border: none;
+        width: 60%;
+        border: transparent;
+        font-size: 19px;
+        color: black;
+    
+        &::placeholder{
+            font-size: 18px;
+            color: gray;
+        }
+    }
+    button{
+        padding: 16px;
+        background-color: rgb(230, 230, 15);
+        color: black;
+        font-size: 18px;   
+        border: transparent;  
+        border-radius: 15px;
     }
 }
