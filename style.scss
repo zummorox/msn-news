@@ -633,7 +633,7 @@ h1{
 
 
 .main-comments{
-    max-width: 80%;
+    width: 80%;
     margin: 0px auto;
     margin-bottom: 50px;
 }
@@ -666,7 +666,7 @@ h1{
 
 
 .comment{
-    max-width: 80%;
+    width: 80%;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -674,7 +674,7 @@ h1{
 }
 
 .comment-card{
-    max-width: 32%;
+    width: 32%;
     background-color: #d8e1ec  ;
     border-radius: 15px;
     padding: 25px 20px;
@@ -824,28 +824,6 @@ margin-bottom: 30px;
     margin-bottom: 20px;
     letter-spacing: 2px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1054,7 +1032,8 @@ margin-bottom: 30px;
         .cm-tl p:last-child{
             font-size: 30px;
             font-weight: 800;
-            
+            padding: 0px;
+            margin: 0px;
           }
           .cm-tl{
               font-size: 20px;
@@ -1067,10 +1046,12 @@ margin-bottom: 30px;
             justify-content: center;
         }
         .comments-title{
-            justify-content: center;
             text-align: center;
         }
-
+      .comment{
+        justify-content: center;
+        align-items: center;
+      }
       .comment-card{
         width: 100%;
       }
