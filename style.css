@@ -153,15 +153,15 @@ h1 {
 }
 
 .sponsor {
-  padding: 0px 15px;
+  padding: 0px 14px;
 }
 .sponsor :first-child {
   color: white;
-  font-size: 35px;
+  font-size: 30px;
 }
 .sponsor :last-child {
   color: white;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .promo-icons {
@@ -185,13 +185,14 @@ h1 {
   margin-bottom: 50px;
   gap: 20px;
 }
-.main-reason div p {
-  font-size: 40px;
-  font-weight: normal;
-}
 .main-reason p {
   width: 55%;
   font-size: 20px;
+}
+
+.text-reason p {
+  font-size: 40px;
+  font-weight: normal;
 }
 
 .reason-cards {
@@ -399,10 +400,6 @@ h1 {
   margin-bottom: 40px;
 }
 
-.sub-a {
-  display: none;
-}
-
 .price-big-box {
   max-width: 40%;
   display: flex;
@@ -586,7 +583,7 @@ h1 {
 }
 
 .main-comments {
-  max-width: 80%;
+  width: 80%;
   margin: 0px auto;
   margin-bottom: 50px;
 }
@@ -618,7 +615,7 @@ h1 {
 }
 
 .comment {
-  max-width: 80%;
+  width: 80%;
   margin: 0px auto;
   display: flex;
   justify-content: space-between;
@@ -626,7 +623,7 @@ h1 {
 }
 
 .comment-card {
-  max-width: 32%;
+  width: 32%;
   background-color: #d8e1ec;
   border-radius: 15px;
   padding: 25px 20px;
@@ -792,30 +789,36 @@ footer {
 @media screen and (max-width: 900px) {
   nav {
     position: sticky;
+    padding: 10px 20px;
   }
   .back {
     padding-top: 30px;
+    border-radius: 0px 0px 30px 30px;
   }
 }
 @media screen and (max-width: 700px) {
   .nava {
     font-size: 20px;
-    padding: 5px 7px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .header-sub h1 {
     font-size: 35px;
+    margin-bottom: 20px;
   }
   .header-sub p {
-    font-size: 20px;
-    margin-bottom: 10px;
+    width: 90%;
+    font-size: 18px;
+    margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 1000px) {
   .promo {
     text-align: center;
     justify-content: center;
+  }
+  .promo-icons {
+    justify-content: space-evenly;
   }
   .promo-icons img {
     width: 100px;
@@ -827,14 +830,15 @@ footer {
     text-align: center;
   }
   .main-reason p {
-    font-size: 17px;
+    font-size: 16px;
     width: 90%;
   }
 }
 @media screen and (max-width: 700px) {
   .reason-cards {
     justify-content: center;
-    gap: 35px;
+    row-gap: 35px;
+    width: 100%;
   }
   .r-card {
     width: 70%;
@@ -904,9 +908,11 @@ footer {
   }
   .card-free {
     width: 80%;
+    padding-top: 25px;
   }
   .card-prem {
     width: 80%;
+    padding-top: 25px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -916,6 +922,12 @@ footer {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+  }
+  .main-sub-add p:first-child {
+    display: none;
+  }
+  .main-sub-add p:last-child {
+    font-size: 15px;
   }
   .main-sub-title {
     width: 100%;
@@ -927,8 +939,7 @@ footer {
     font-size: 25px;
   }
   .main-sub-title P {
-    font-size: 15px;
-    width: 100%;
+    display: none;
   }
   .main-sub {
     justify-content: center;
@@ -949,26 +960,30 @@ footer {
   .cm-tl p:last-child {
     font-size: 30px;
     font-weight: 800;
+    padding: 0px;
+    margin: 0px;
   }
   .cm-tl {
     font-size: 20px;
-    width: 50%;
+    text-align: center;
   }
   .listen {
-    width: 100%;
-    font-size: 18px;
-    letter-spacing: 2px;
-    justify-content: center;
+    display: none;
   }
   .comments-title {
-    justify-content: center;
-    text-align: center;
+    margin-bottom: 50px;
+  }
+  .comment {
+    gap: 50px 0px;
   }
   .comment-card {
     width: 100%;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
+  footer {
+    border-radius: 30px;
+  }
   .footer-right {
     display: none;
   }

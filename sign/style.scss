@@ -55,5 +55,49 @@ form{
         font-size: 18px;   
         border: transparent;  
         border-radius: 15px;
+        transition-duration: 0.3s;
+        
+        &:hover{
+            background-color: rgb(4, 204, 154);
+           
+        }
     }
 }
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .logo{
+        width: 300px;
+    }
+    .signer{
+        width: 95%;
+        input{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        button{
+            width: 100%;
+            padding: 12px;
+        }
+    }
+   }
+
+   @media screen and (max-width:600px) {
+    .logo{
+        width: 200px;
+    }
+   }
+
+   @media screen and (max-width:700px) {
+    form{
+        width: 100%;
+        h1{
+            width: 100%;
+            font-size: 25px;    
+            font-weight: normal; 
+           }
+    }
+   }
